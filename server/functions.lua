@@ -322,14 +322,6 @@ ServerFunc.CreateLog = function(args)
                     ["inline"] = false
                 }
             end
-        else
-            if configFile['timestamp'] then
-                message['embeds'][1].fields[2]  = {
-                    ["name"] = "Timestamp:",
-                    ["value"] = "<t:".. math.floor(tonumber(os.time())) ..":R>",
-                    ["inline"] = false
-                }
-            end
         end
 
         if args.responseUrl then
