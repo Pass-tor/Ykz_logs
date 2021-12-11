@@ -8,7 +8,8 @@ repository 'https://github.com/pastor/Ykz_logs'
 -- Server Scripts
 server_scripts {
     'server/server.lua',
-    'server/functions.lua'
+    'server/functions.lua',
+    'server/Updates.lua'
 } 
 
 --Client Scripts
